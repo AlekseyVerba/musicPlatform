@@ -1,0 +1,20 @@
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    label {
+        width: 100%;
+    }
+}
+.wrapper-button {
+    margin-top: 20px;
+}
+.mention {
+    text-align: center;
+    margin: 10px 0;
+    &--error {
+        color: rgb(255, 0, 0);
+    }
+    &--success {
+        color: rgb(8, 253, 0);
+    }
+}

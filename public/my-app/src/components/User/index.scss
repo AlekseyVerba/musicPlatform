@@ -1,0 +1,21 @@
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.user__image {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.user__username {
+    text-align: center;
+    font-size: 20px;
+}
+.user__controller {
+    button {
+        width: 100%;
+    }
+}

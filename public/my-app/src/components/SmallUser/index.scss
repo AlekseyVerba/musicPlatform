@@ -1,0 +1,17 @@
+.small-user__image {
+    border-radius: 100%;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        // border-radius: 100%;
+    }
+}
+.small-user {
+    text-align: center;
+    
+    margin-bottom: 10px;
+}

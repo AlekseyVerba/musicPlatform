@@ -1,0 +1,28 @@
+.album {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.album__img {
+    img {
+        max-height: 130px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+.album__play {
+    img {
+        height: auto;
+        width: 100%;
+    }
+}
+.album__likes {
+    max-width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.album__like {
+    font-size: 22px;
+}

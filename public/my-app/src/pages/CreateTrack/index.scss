@@ -1,0 +1,31 @@
+.create-track__header {
+    margin: 0 auto;
+    text-align: center;
+}
+.create-track__circles {
+    display: flex;
+    justify-content: center;
+}
+.create-track__circle {
+    height: 80px;
+    width: 80px;
+    background: rgb(207, 207, 207);
+    border-radius: 50%;
+    position: relative;
+    margin-top: 15px;
+    &+& {
+        margin-left: 50px;
+    }
+    &--active {
+        .create-track__circle-number {
+            color: rgb(255, 0, 0);
+        }
+    }
+}
+.create-track__circle-number {
+    font-size: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

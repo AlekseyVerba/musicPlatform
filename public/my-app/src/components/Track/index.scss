@@ -1,0 +1,42 @@
+.track {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    &+& {
+        margin-top: 30px;
+    }
+}
+.track__img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.track__actions {
+    display: flex;
+    flex-direction: column;
+    button {
+        width: 100%;
+    }
+}
+
+.track__controller {
+    background: transparent;
+    border: none;
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.count-likes {
+    font-size: 22px;
+}
+
+.track__likes {
+    max-width: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}

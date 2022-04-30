@@ -1,0 +1,12 @@
+.current-album {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.current-album__img {
+    img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}

@@ -1,0 +1,28 @@
+.second-step {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    max-width: 700px;
+}
+
+.second-step__left {
+    width: 45%;
+}
+.second-step__block {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    &--grey {
+        background: rgb(161, 161, 161);
+    }
+}
+.second-step__title {
+    font-size: 30px;
+}
+.wrapper-second-button {
+    text-align: center;
+}
+.second-step__button {
+    margin-top: 10px;
+}
